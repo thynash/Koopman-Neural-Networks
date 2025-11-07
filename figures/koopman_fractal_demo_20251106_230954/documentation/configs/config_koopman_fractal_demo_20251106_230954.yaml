@@ -1,0 +1,22 @@
+data_parameters:
+  n_trajectories: 10000
+  test_split: 0.15
+  train_split: 0.7
+  trajectory_length: 1000
+  val_split: 0.15
+experiment_name: koopman_fractal_demo
+fractal_system: multi_system
+hyperparameters:
+  batch_size: 64
+  epochs: 100
+  learning_rate: 0.001
+  optimizer: Adam
+model_architectures:
+- MLP
+- DeepONet
+- LSTM
+timestamp: '20251106_230954'
+training_parameters:
+  early_stopping: true
+  lr_scheduler: ExponentialLR
+  patience: 10

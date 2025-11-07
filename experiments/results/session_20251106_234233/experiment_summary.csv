@@ -1,0 +1,5 @@
+experiment_id,system_type,success,error
+sierpinski_000,sierpinski,False,'FractalVisualizer' object has no attribute 'plot_attractor'
+sierpinski_001,sierpinski,False,'FractalVisualizer' object has no attribute 'plot_attractor'
+sierpinski_002,sierpinski,False,'FractalVisualizer' object has no attribute 'plot_attractor'
+sierpinski_003,sierpinski,False,'FractalVisualizer' object has no attribute 'plot_attractor'

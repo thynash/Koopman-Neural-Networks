@@ -1,0 +1,23 @@
+2025-11-06 19:51:22,496 - INFO - Initialized MLP model with 4354 parameters
+2025-11-06 19:51:22,498 - INFO - Starting training for 10 epochs
+2025-11-06 19:51:22,499 - INFO - Device: cpu
+2025-11-06 19:51:22,499 - INFO - Training samples: 700
+2025-11-06 19:51:22,499 - INFO - Validation samples: 150
+2025-11-06 19:51:22,689 - INFO - Epoch   0: Train Loss = 0.264755, Val Loss = 0.032517, Best Val = 0.032517
+2025-11-06 19:51:22,762 - INFO - Saved best model at epoch 0
+2025-11-06 19:51:22,877 - INFO - Epoch   1: Train Loss = 0.070345
+2025-11-06 19:51:22,964 - INFO - Epoch   2: Train Loss = 0.056152
+2025-11-06 19:51:23,049 - INFO - Epoch   3: Train Loss = 0.053363
+2025-11-06 19:51:23,134 - INFO - Epoch   4: Train Loss = 0.056854
+2025-11-06 19:51:23,230 - INFO - Epoch   5: Train Loss = 0.043811, Val Loss = 0.013001, Best Val = 0.013001
+2025-11-06 19:51:23,239 - INFO - Saved best model at epoch 5
+2025-11-06 19:51:23,328 - INFO - Epoch   6: Train Loss = 0.049065
+2025-11-06 19:51:23,428 - INFO - Epoch   7: Train Loss = 0.051684
+2025-11-06 19:51:23,517 - INFO - Epoch   8: Train Loss = 0.050288
+2025-11-06 19:51:23,605 - INFO - Epoch   9: Train Loss = 0.049738
+2025-11-06 19:51:23,618 - INFO - Test Evaluation Results:
+2025-11-06 19:51:23,618 - INFO -   mse_loss: 0.014019
+2025-11-06 19:51:23,618 - INFO -   mae_loss: 0.086822
+2025-11-06 19:51:23,619 - INFO -   relative_error: 0.142034
+2025-11-06 19:51:23,619 - INFO -   r2_score: 0.984601
+2025-11-06 19:51:23,621 - INFO - Saved training history to test_output\training_history.json

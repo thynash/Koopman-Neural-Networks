@@ -1,0 +1,13 @@
+{
+  "sierpinski_attractor": "figures\\koopman_fractal_demo_20251106_231117\\fractals\\koopman_fractal_demo_ifs_attractor_sierpinski_20251106_231117.png",
+  "barnsley_attractor": "figures\\koopman_fractal_demo_20251106_231117\\fractals\\koopman_fractal_demo_ifs_attractor_barnsley_20251106_231117.png",
+  "julia_attractor": "figures\\koopman_fractal_demo_20251106_231117\\fractals\\koopman_fractal_demo_julia_attractor_julia_20251106_231117.png",
+  "fractal_comparison": "figures\\koopman_fractal_demo_20251106_231117\\fractals\\koopman_fractal_demo_fractal_comparison_sierpinski_vs_barnsley_vs_julia_20251106_231117.png",
+  "loss_curves": "figures\\koopman_fractal_demo_20251106_231117\\training\\koopman_fractal_demo_training_curves_mlp_vs_deeponet_vs_lstm_20251106_231117.png",
+  "spectral_error_evolution": "figures\\koopman_fractal_demo_20251106_231117\\training\\koopman_fractal_demo_spectral_error_evolution_mlp_vs_deeponet_vs_lstm_20251106_231117.png",
+  "training_dashboard": "figures\\koopman_fractal_demo_20251106_231117\\training\\koopman_fractal_demo_training_dashboard_mlp_vs_deeponet_vs_lstm_20251106_231117.png",
+  "eigenvalue_spectrum": "figures\\koopman_fractal_demo_20251106_231117\\spectral\\koopman_fractal_demo_eigenvalue_spectrum_mlp_vs_deeponet_vs_lstm_20251106_231117.png",
+  "spectrum_vs_reference": "figures\\koopman_fractal_demo_20251106_231117\\spectral\\koopman_fractal_demo_spectrum_vs_reference_mlp_vs_deeponet_vs_lstm_20251106_231117.png",
+  "performance_comparison": "figures\\koopman_fractal_demo_20251106_231117\\publication_ready\\koopman_fractal_demo_performance_comparison_mlp_vs_deeponet_vs_lstm_20251106_231117.png",
+  "convergence_analysis": "figures\\koopman_fractal_demo_20251106_231117\\training\\koopman_fractal_demo_convergence_analysis_mlp_vs_deeponet_vs_lstm_20251106_231117.png"
+}

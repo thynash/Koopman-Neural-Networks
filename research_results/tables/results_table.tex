@@ -1,0 +1,18 @@
+\begin{tabular}{lllllllllrl}
+\toprule
+System & Model & Architecture & Parameters & Training Time (s) & Test MSE & Test MAE & Test R² & Spectral Radius & Stable Modes & Spectral Error \\
+\midrule
+Sierpinski Gasket & DMD & Linear & N/A & N/A & N/A & N/A & N/A & 0.9298 & 2 & 0.000000 \\
+Sierpinski Gasket & SMALL & MLP & 16,898 & 89.4 & 0.041692 & 0.181077 & 0.3776 & 0.0989 & 2 & 0.4429 \\
+Sierpinski Gasket & MEDIUM & MLP & 74,690 & 117.5 & 0.041712 & 0.181147 & 0.3773 & 0.0420 & 2 & 0.4689 \\
+Sierpinski Gasket & LARGE & MLP & 304,962 & 176.1 & 0.041771 & 0.182062 & 0.3764 & 0.0256 & 2 & 0.4782 \\
+Barnsley Fern & DMD & Linear & N/A & N/A & N/A & N/A & N/A & 0.9649 & 2 & 0.000000 \\
+Barnsley Fern & SMALL & MLP & 16,898 & 83.7 & 1.765540 & 0.911618 & 0.8388 & 0.4076 & 2 & 0.4601 \\
+Barnsley Fern & MEDIUM & MLP & 74,690 & 115.8 & 1.686683 & 0.831997 & 0.8460 & 0.4952 & 2 & 0.4239 \\
+Barnsley Fern & LARGE & MLP & 304,962 & 182.3 & 1.668454 & 0.785358 & 0.8476 & 0.3993 & 2 & 0.3865 \\
+Julia Set & DMD & Linear & N/A & N/A & N/A & N/A & N/A & 0.8615 & 2 & 0.000000 \\
+Julia Set & SMALL & MLP & 16,898 & 5.5 & 0.000615 & 0.014483 & 0.9952 & 0.2120 & 2 & 0.5682 \\
+Julia Set & MEDIUM & MLP & 74,690 & 7.6 & 0.000700 & 0.016397 & 0.9946 & 0.1484 & 2 & 0.6705 \\
+Julia Set & LARGE & MLP & 304,962 & 11.4 & 0.000402 & 0.009393 & 0.9969 & 0.1490 & 2 & 0.7363 \\
+\bottomrule
+\end{tabular}

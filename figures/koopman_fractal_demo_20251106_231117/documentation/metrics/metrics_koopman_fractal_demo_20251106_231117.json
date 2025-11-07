@@ -1,0 +1,107 @@
+{
+  "experiment_info": {
+    "name": "koopman_fractal_demo",
+    "timestamp": "20251106_231117",
+    "date": "2025-11-06T23:12:08.511875",
+    "n_models": 3
+  },
+  "performance_metrics": {
+    "MLP": {
+      "final_train_loss": 0.0123,
+      "final_val_loss": 0.0156,
+      "best_val_loss": 0.0145,
+      "loss_improvement": -0.0022000000000000006
+    },
+    "DeepONet": {
+      "final_train_loss": 0.0098,
+      "final_val_loss": 0.0134,
+      "best_val_loss": 0.0128,
+      "loss_improvement": -0.003000000000000001
+    },
+    "LSTM": {
+      "final_train_loss": 0.0145,
+      "final_val_loss": 0.0178,
+      "best_val_loss": 0.0165,
+      "loss_improvement": -0.002
+    }
+  },
+  "convergence_metrics": {
+    "MLP": {
+      "convergence_epoch": 78,
+      "convergence_rate": 0.01282051282051282
+    },
+    "DeepONet": {
+      "convergence_epoch": 85,
+      "convergence_rate": 0.011764705882352941
+    },
+    "LSTM": {
+      "convergence_epoch": 92,
+      "convergence_rate": 0.010869565217391304
+    }
+  },
+  "computational_metrics": {
+    "MLP": {
+      "training_time": 195.5,
+      "memory_usage": 165.2,
+      "time_per_epoch": 2.5064102564102564
+    },
+    "DeepONet": {
+      "training_time": 357.2,
+      "memory_usage": 295.8,
+      "time_per_epoch": 4.20235294117647
+    },
+    "LSTM": {
+      "training_time": 285.7,
+      "memory_usage": 235.4,
+      "time_per_epoch": 3.1054347826086954
+    }
+  },
+  "spectral_metrics": {
+    "MLP": {
+      "spectral_error": 0.0089,
+      "eigenvalue_count": 5,
+      "dominant_eigenvalue_real": 0.95,
+      "dominant_eigenvalue_imag": 0.1,
+      "dominant_eigenvalue_magnitude": 0.95524865872714
+    },
+    "DeepONet": {
+      "spectral_error": 0.0067,
+      "eigenvalue_count": 5,
+      "dominant_eigenvalue_real": 0.92,
+      "dominant_eigenvalue_imag": 0.08,
+      "dominant_eigenvalue_magnitude": 0.9234717104492156
+    },
+    "LSTM": {
+      "spectral_error": 0.0112,
+      "eigenvalue_count": 5,
+      "dominant_eigenvalue_real": 0.9,
+      "dominant_eigenvalue_imag": 0.12,
+      "dominant_eigenvalue_magnitude": 0.9079647570252933
+    }
+  },
+  "summary_statistics": {
+    "train_loss_stats": {
+      "mean": 0.0122,
+      "std": 0.001920069443188623,
+      "min": 0.0098,
+      "max": 0.0145
+    },
+    "val_loss_stats": {
+      "mean": 0.014600000000000002,
+      "std": 0.0015121728296285007,
+      "min": 0.0128,
+      "max": 0.0165
+    },
+    "spectral_error_stats": {
+      "mean": 0.008933333333333333,
+      "std": 0.001837268503936089,
+      "min": 0.0067,
+      "max": 0.0112
+    },
+    "training_time_stats": {
+      "total": 838.4000000000001,
+      "mean": 279.4666666666667,
+      "std": 66.16073021228092
+    }
+  }
+}

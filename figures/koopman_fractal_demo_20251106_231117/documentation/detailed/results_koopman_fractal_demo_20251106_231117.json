@@ -1,0 +1,38 @@
+{
+  "MLP": {
+    "model_name": "MLP",
+    "final_train_loss": 0.0123,
+    "final_val_loss": 0.0156,
+    "best_val_loss": 0.0145,
+    "convergence_epoch": 78,
+    "training_time": 195.5,
+    "memory_usage": 165.2,
+    "spectral_error": 0.0089,
+    "eigenvalue_count": 5,
+    "dominant_eigenvalue": "(0.95+0.1j)"
+  },
+  "DeepONet": {
+    "model_name": "DeepONet",
+    "final_train_loss": 0.0098,
+    "final_val_loss": 0.0134,
+    "best_val_loss": 0.0128,
+    "convergence_epoch": 85,
+    "training_time": 357.2,
+    "memory_usage": 295.8,
+    "spectral_error": 0.0067,
+    "eigenvalue_count": 5,
+    "dominant_eigenvalue": "(0.92+0.08j)"
+  },
+  "LSTM": {
+    "model_name": "LSTM",
+    "final_train_loss": 0.0145,
+    "final_val_loss": 0.0178,
+    "best_val_loss": 0.0165,
+    "convergence_epoch": 92,
+    "training_time": 285.7,
+    "memory_usage": 235.4,
+    "spectral_error": 0.0112,
+    "eigenvalue_count": 5,
+    "dominant_eigenvalue": "(0.9+0.12j)"
+  }
+}

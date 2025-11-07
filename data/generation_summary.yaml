@@ -1,0 +1,29 @@
+config_used:
+  dataset_config:
+    normalize: true
+    seed: 42
+    test_ratio: 0.15
+    train_ratio: 0.7
+    val_ratio: 0.15
+  figures_dir: figures/fractal_attractors
+  output_dir: data
+  systems:
+    barnsley:
+      n_points: 20000
+      save_path: data/barnsley_trajectories.npy
+      visualize: false
+    julia:
+      c_imag: 0.1889
+      c_real: -0.7269
+      n_points: 15000
+      save_path: data/julia_trajectories.npy
+      visualize: false
+    sierpinski:
+      n_points: 20000
+      save_path: data/sierpinski_trajectories.npy
+      visualize: false
+individual_counts:
+  sierpinski: 9999
+systems_generated:
+- sierpinski
+total_points: 9999

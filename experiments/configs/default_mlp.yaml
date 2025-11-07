@@ -1,0 +1,31 @@
+name: "default_mlp_sierpinski"
+description: "Default MLP experiment on Sierpinski gasket fractal"
+
+model:
+  architecture: "mlp"
+  hidden_dims: [64, 128, 128, 64]
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 100
+  activation: "relu"
+  dropout_rate: 0.1
+  weight_decay: 0.0001
+
+data:
+  system_type: "sierpinski"
+  n_points: 10000
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  seed: 42
+  normalize: true
+
+spectral:
+  reference_method: "dmd"
+  n_eigenvalues: 10
+  tolerance: 1e-6
+  max_iterations: 1000
+
+output_dir: "results/default_mlp_sierpinski"
+save_checkpoints: true
+log_level: "INFO"
